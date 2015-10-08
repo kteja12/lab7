@@ -19,9 +19,8 @@ def add(a, b):
 # a -- minuend
 # b -- subtrahend
 def sub(a, b):
-    return a - b
-
-# Multiply function
+   return a - b
+ Multiply function
 # a -- multiplicand
 # b -- multiplier
 def mult(a, b):
@@ -32,12 +31,10 @@ def mult(a, b):
 # b -- divisor
 def div(a, b):
     return a / b
-
-
-# -------------------------------------------------------- #
-
-
-# -------------------------------------------------------- #
+def mod(a, b):
+return a % b
+ #
+ -------------------------------------------------------- #
 # -- MAIN FUNCTIONAILTY -- DO NOT EDIT ------------------- #
 # -------------------------------------------------------- #
 
@@ -67,7 +64,12 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
-        else:
+ 
+elif(op== "%")
+print "Remainder: ", mod(a,b)
+
+
+       elsef:
             print "Invalid operation..."
 
     q = raw_input("Quit? [y/n] ")
