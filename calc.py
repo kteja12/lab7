@@ -31,10 +31,23 @@ def mult(a, b):
 # b -- divisor
 def div(a, b):
     return a / b
+<<<<<<< HEAD
 def mod(a, b):
 return a % b
  #
  -------------------------------------------------------- #
+=======
+
+#exp function
+def exp(a, b):
+    return a ** b
+
+
+# -------------------------------------------------------- #
+
+
+# -------------------------------------------------------- #
+>>>>>>> 883059a4440116a5e93c8a33d8bb7dc376c92b4b
 # -- MAIN FUNCTIONAILTY -- DO NOT EDIT ------------------- #
 # -------------------------------------------------------- #
 
@@ -64,12 +77,21 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+
+
+
  
 elif(op== "%")
 print "Remainder: ", mod(a,b)
 
 
        elsef:
+=======
+        elif (op == "**"):
+            print "Exponent: ", exp(a, b)
+        else:
+
+
             print "Invalid operation..."
 
     q = raw_input("Quit? [y/n] ")
