@@ -31,12 +31,12 @@ def mult(a, b):
 # b -- divisor
 def div(a, b):
     return a / b
-<<<<<<< HEAD
+#mod
 def mod(a, b):
 return a % b
- #
- -------------------------------------------------------- #
-=======
+
+
+
 
 #exp function
 def exp(a, b):
@@ -85,8 +85,9 @@ elif(op== "%")
 print "Remainder: ", mod(a,b)
 
 
-       elsef:
-=======
+
+ 
+
         elif (op == "**"):
             print "Exponent: ", exp(a, b)
         else:
