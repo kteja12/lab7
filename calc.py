@@ -20,7 +20,7 @@ def add(a, b):
 # b -- subtrahend
 def sub(a, b):
    return a - b
- Multiply function
+
 # a -- multiplicand
 # b -- multiplier
 def mult(a, b):
